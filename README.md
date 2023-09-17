@@ -1,0 +1,1 @@
+# core subjects notes (academic)
