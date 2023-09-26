@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: math;
+}
+
+html{
+    overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #2d2d2d;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.514);
+    border-bottom: 1px solid gray;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img{
+    height: 50px;
+    border-radius: 4px;
+    margin: 10px;
+}
+.right{
+    position: absolute;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-btns div a{
+    color: white;
+    text-decoration: none;
+}
+.nav-btns div a:hover{
+    color: #c0171a;
+}
+.nav-btns div{
+    margin: 10px;
+}
+.right .search-bar input{
+    outline: none;
+    height: 30px;
+    width: 200px;
+    background: #2d2d2d;
+    color: rgb(190, 190, 190);
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+marquee{
+    color: rgb(255, 60, 60);
+    background: #2d2d2d;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+marquee span{
+    padding: 0px 20px 0px 20px;
+}
+marquee .bar{
+    color: white;
+}
+
+
+/* main */
+main{
+    background: linear-gradient(45deg, black, transparent);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+main img{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+}
+main .about-sec{
+    background: #2d2d2d;
+    position: absolute;
+    color: white;
+    border: 1px solid rgb(66, 0, 0);
+    padding: 20px;
+    margin: 30px;
+    top: 200px;
+}
+main .about-sec h3{
+    padding: 10px;
+    color: #bd262a;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+.readmore{
+    background: rgb(151, 0, 0);
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+
+/* footer */
+.footer{
+    height: 40px;
+    width: 100vw;
+    background: #2d2d2d;
+    position: absolute;
+    bottom: 0;
+    color: rgba(255, 255, 255, 0.582);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

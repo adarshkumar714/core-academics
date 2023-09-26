@@ -1,0 +1,23 @@
+.contact-table{
+    position: absolute;
+    margin: 40px;
+    background: #2d2d2d;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.contact-table h3{
+    color: #bd262a;
+    border-bottom: 1px solid gray;
+}
+table{
+    border-collapse: collapse;
+    color: rgba(206, 206, 206, 0.63);
+}
+th{
+    color: rgb(190, 79, 79);
+}
+table, td, th{
+    border: 1px solid white;
+    padding: 10px;
+}
