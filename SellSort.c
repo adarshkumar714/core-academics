@@ -1,4 +1,4 @@
-// complixity of Sell Sort
+// Time Complixity of Sell Sort
 // Best Case: nlogn
 // Average Case: nlog(n^2)
 // Worst Case: n^2
