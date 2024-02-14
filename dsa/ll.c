@@ -3,11 +3,11 @@
 
 typedef struct node {
     int data;
-    struct node* next;
+    struct node *next;
 } node;
 
-node* createNode(int data){
-    node* newNode = (node*) malloc(sizeof(struct node));
+node *createNode(int data){
+    node *newNode = (node*) malloc(sizeof(struct node));
     if(!newNode){
         printf("No memory available!\n");
         exit(1);
@@ -17,8 +17,8 @@ node* createNode(int data){
     return newNode;
 }
 
-void printLL(node* head){
-    node* current = head;
+void printLL(node *head){
+    node *current = head;
     while(current){
         printf("%d -> ", current->data);
         current = current -> next;
@@ -26,7 +26,7 @@ void printLL(node* head){
     printf("NULL\n");
 }
 
-void printLL_recursive(node* head){
+void printLL_recursive(node *head){
     if(head==NULL){
         printf("NULL\n");
         return;
@@ -35,8 +35,8 @@ void printLL_recursive(node* head){
     printLL_recursive(head->next);
 }
 
-node* insertAtStart(node* head, int data){
-    node* newNode = createNode(data);
+node *insertAtStart(node *head, int data){
+    node *newNode = createNode(data);
     newNode->next = head;
 
     head = newNode;
@@ -44,40 +44,40 @@ node* insertAtStart(node* head, int data){
     return head;
 }
 
-void insertAfterNode(node* Node, int data){
-    node* newNode = createNode(data);
+void insertAfterNode(node *Node, int data){
+    node *newNode = createNode(data);
     
     newNode->next = Node->next;
     Node->next = newNode;
 }
 
-node* deleteFromStarting(node* head){
+node *deleteFromStarting(node *head){
     if(head==NULL){
         printf("LL is empty!\n");
         return NULL;
     }
 
-    node* temp = head;
+    node *temp = head;
     head = head->next;
     free(temp);
 
     return head;
 }
 
-void deleteAfterNode(node* Node){
+void deleteAfterNode(node *Node){
     if(Node==NULL){
         printf("No node to delete!\n");
         return;
     }
-    node* temp = Node->next;
+    node *temp = Node->next;
     Node->next = Node->next->next;
     free(temp);
 }
 
-// node* reverseLL(node* head){
-//     node* prev = NULL;
-//     node* current = head;
-//     node* next = head->next;
+// node *reverseLL(node *head){
+//     node *prev = NULL;
+//     node *current = head;
+//     node *next = head->next;
 //     while(next){
 //         current->next = prev;
 //         prev = current;
@@ -87,10 +87,10 @@ void deleteAfterNode(node* Node){
 //     return current;
 // }
 
-void reverseLL(node** head){
-    node* prev = NULL;
-    node* current = *head;
-    node* next = NULL;
+void reverseLL(node* *head){
+    node *prev = NULL;
+    node *current = *head;
+    node *next = NULL;
     while(current){
         next = current->next;
         current->next = prev;
@@ -100,7 +100,7 @@ void reverseLL(node** head){
     *head = prev;
 }
 
-// node* reverseLL_recursive(node* prevNode, node* current){
+// node *reverseLL_recursive(node *prevNode, node *current){
 //     if(current==NULL){
 //         printf("`%d`\n", prevNode->data);
 //         return prevNode;
@@ -112,11 +112,11 @@ void reverseLL(node** head){
 //     printf("\n%d %d\n", current->data, prevNode->data);
 // }
 
-node* reverseLL_recursive(node* head){
+node *reverseLL_recursive(node *head){
     if(head || head->next){
         return head;
     }
-    node* rest = reverseLL_recursive(head->next);
+    node *rest = reverseLL_recursive(head->next);
     head->next->next = head;
     head->next = NULL;
     return rest;
@@ -125,7 +125,7 @@ node* reverseLL_recursive(node* head){
 
 int main(){
     // creating a simaple linked list
-    node* head = createNode(1);
+    node *head = createNode(1);
     head -> next = createNode(2);
     head -> next -> next = createNode(3);
     printf("\n-- simple linked list --\n");
