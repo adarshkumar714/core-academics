@@ -21,6 +21,22 @@ int isFull(queue *q){
     return q->rear == MAX_SIZE - 1;
 }
 
+// returns front value of queue
+int front(queue *q){
+    return r->arr[q->front];
+}
+
+// returns rear value of queue
+int rear(queue *q){
+    return r->arr[q->rear];
+}
+
+// returns number of elements contained in queue
+int size(queue *q){
+    return (q->rear) - (q->front) + 1;
+}
+
+// insertion
 void enqueue(queue *q, int data){
     if(isFull(q)){
         printf("Queue is full!\n");
@@ -32,6 +48,7 @@ void enqueue(queue *q, int data){
     q->arr[++(q->rear)] = data;
 }
 
+// deletion
 int dequeue(queue *q){
     if(isEmpty(q)){
         printf("Queue is already empty!\n");
