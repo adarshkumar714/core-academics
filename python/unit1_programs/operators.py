@@ -1,6 +1,5 @@
 # Author: Adarsh Kumar
 
-''' -------------------------------------------------- '''
 '''
 # BASIC PYTHON OPERATORS
 * Arithmetic operators
