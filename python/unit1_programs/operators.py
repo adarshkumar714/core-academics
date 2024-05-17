@@ -8,6 +8,13 @@
 * Logical operators
 '''
 
+'''
+# OTHER PYTHON OPERATORS
+* Membership opertors -> in, not in
+* Bitwise operators -> &, |, ~, ^ (xor), <<(zero fill left shift), >>(signed right shift)
+* Identity operators -> is, is not
+'''
+
 # Arithmetic operators
 a = 3 + 3   # plus
 b = 6 - 2   # subtract

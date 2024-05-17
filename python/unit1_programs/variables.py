@@ -4,10 +4,10 @@
 ''' ALL PYTHON VARIBALES '''
 a = 10 # int
 b = 12.4 # float
-c = "Adarsh Kumar"
+c = "Adarsh Kumar" # string
 d = True # boolean
 e = ("Abhishek", "Akarsh", "Ishatva") # tuple
-f = [1,5,6] # list
+f = [1,5,6,6,5] # list
 g = {
     "name": "Nishu Maam",
     "subject": "DSA",

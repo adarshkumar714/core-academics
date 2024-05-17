@@ -12,4 +12,8 @@
 a = int(input())
 b = int(input())
 if a==b:
-    print("both are ecual")
+    print("both are equal")
+elif a>b:
+    print("a is greater than b")
+else:
+    print("b is greater than a")
