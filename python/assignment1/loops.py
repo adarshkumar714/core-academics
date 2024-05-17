@@ -7,10 +7,12 @@
 #     print('a')
 #     a+=1
 
+# for loop for string
 name = 'Adarsh Kumar'
 for c in name:
     print(c)
 
+# for loop for dictionary
 a = {
     "name":"Adarsh",
     "branch":"CSE",
@@ -26,10 +28,12 @@ for i in a.values():
 for key, value in a.items():
     print(key, ':', value)
 
+# for loop for set
 b = {33,6,76,2,1,1,6,6}
 for i in b:
     print(i)
 
+# using else in while loop
 i = 0
 while i<4:
     print(i)
