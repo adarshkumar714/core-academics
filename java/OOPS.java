@@ -1,5 +1,7 @@
 public class OOPS{
     public static void main(String args[]){
+
+        System.out.println(Car.name);
         
         System.out.println("-----------------classes, objects and constructors");
         // classes, objects, constructors and Encapsulations
@@ -58,6 +60,7 @@ class Car{
     int prise;
     String color;
     String brand;
+    static int a;
     Car(){
         System.out.println("this is the constructor of Car class");
     }
@@ -123,7 +126,7 @@ class Child extends Man{ // drived(child) class for 'Man' and parant class for '
     void playing(){
         System.out.println(this.name + " is playing");
     }
-    // @Override
+    @Override
     void man(){
         System.out.println("this is man of child");
     }
