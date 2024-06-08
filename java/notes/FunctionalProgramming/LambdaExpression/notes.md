@@ -3,5 +3,5 @@
 ***Run the code***
 ```shell
 javac -d . LE.java
-java notes.LambdaExpression.LE
+java notes.FunctionalProgramming.LambdaExpression.LE
 ```

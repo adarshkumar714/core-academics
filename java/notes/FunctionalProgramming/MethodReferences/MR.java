@@ -1,4 +1,4 @@
-package notes.MethodReferences;
+package notes.FunctionalProgramming.MethodReferences;
 
 @FunctionalInterface
 interface A{

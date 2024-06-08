@@ -9,5 +9,5 @@
 ***Run the code***
 ```shell
 javac -d . DM.java
-java notes.DefaultMethods.DM
+java notes.FunctionalProgramming.DefaultMethods.DM
 ```

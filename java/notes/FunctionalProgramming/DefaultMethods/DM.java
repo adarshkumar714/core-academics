@@ -1,4 +1,4 @@
-package notes.DefaultMethods;
+package notes.FunctionalProgramming.DefaultMethods;
 
 interface A{
     void a();

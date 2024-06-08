@@ -1,4 +1,4 @@
-package notes.StreamAPI;
+package notes.FunctionalProgramming.StreamAPI;
 
 import java.util.Arrays;
 import java.util.List;

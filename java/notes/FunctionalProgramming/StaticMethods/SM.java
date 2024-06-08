@@ -1,4 +1,4 @@
-package notes.StaticMethods;
+package notes.FunctionalProgramming.StaticMethods;
 
 class A{
     // static method

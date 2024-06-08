@@ -1,4 +1,4 @@
-package notes.LambdaExpression;
+package notes.FunctionalProgramming.LambdaExpression;
 
 @FunctionalInterface
 interface A{
