@@ -1,4 +1,4 @@
-package notes;
+package notes.FunctionalInterfaces;
 
 @FunctionalInterface
 interface A{
@@ -8,6 +8,7 @@ interface A{
 
 // 1st method to implement functional interface
 class B implements A{
+    @Override
     public void print(){
         System.out.println("In class B");
     }
@@ -50,6 +51,8 @@ public class FI {
         A obj2 = new A(){
             public void print(){
                 System.out.println("In class FI");
+                int a = 3;
+                System.out.println(a);
             }
         };
         obj2.print();
@@ -66,6 +69,12 @@ public class FI {
 
         /* ---------------------------------------------------------------------------- */
 
+        Add aa = new Add() {
+            public void add(int x, int y){
+                System.out.println(x+y);
+            }
+        };
+        aa.add(5, 6);
         // taking parameters in functional interface
         Add a = (int x, int y) -> System.out.println(x+y);
         a.add(3,5);
@@ -80,13 +89,50 @@ public class FI {
 
         // functional interface with some return type
         withReturnType c = (int x, int y) -> {
+            System.out.println("hi");
             return x+y;
         };
         int temp = c.add(6, 4);
         System.out.println(temp);
 
-        withReturnType d = (x,y) -> x+y;
+        withReturnType d = (i,j) ->  i+j;
         temp = d.add(6, 4);
         System.out.println(temp);
     }
 }
+
+
+
+// Program from GFG
+// Java program to demonstrate functional interface
+ 
+class Test {
+    public static void main(String args[]){
+        // create anonymous inner class object
+        new Thread(new Runnable() {
+            @Override public void run(){
+                System.out.println("New thread created");
+            }
+        }).start();
+
+        // lambda expression to create the object
+        new Thread(() -> {
+            System.out.println("New thread created");
+        }).start();
+    }
+}
+
+
+
+// interface T{
+//     void a();
+//     void b();
+//     void c();
+// }
+
+// abstract class E{
+//     abstract void a();
+//     void b(){
+//         System.out.println("hey");
+//     }
+// }
