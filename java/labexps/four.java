@@ -1,6 +1,6 @@
 package labexps;
 
-public class three2 {
+public class four {
     public static void main(String[] args) {
         MyInheritance x = new MyInheritance();
         x.test();
@@ -18,7 +18,20 @@ class a{
         System.out.println("test function of MyInheritance");
     }
 }
-class MyInheritance extends a{
+interface b{
+    void a();
+}
+interface c{
+    void b();
+
+}
+class MyInheritance extends a implements b, c{
+    public void a(){
+
+    }
+    public void b(){
+        
+    }
     public void test(){
         System.out.println("test function of MyInheritance");
     }

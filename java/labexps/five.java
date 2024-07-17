@@ -1,6 +1,6 @@
 package labexps;
 
-public class four {
+public class five {
     public static void main(String[] args) {
         MyThread a = new MyThread();
         a.name = 'a';

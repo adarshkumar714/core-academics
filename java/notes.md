@@ -69,6 +69,7 @@ catch (Exception e) {
   System.out.println("Something went wrong.");
 } 
 finally {
+  // always executes
   System.out.println("The 'try catch' is finished.");
 }
 ```

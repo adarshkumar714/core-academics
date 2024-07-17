@@ -1,14 +1,24 @@
 public class code {
     public static void main(String[] args) {
-        animal a = new animal();
-        a.age = 8;
-        System.out.println(a.age);
-        a.setAge(10);
-        System.out.println(a.age);
+        try {
+            
+            animal a = new animal();
+            a.age = 8;
+            System.out.println(a.age);
+            a.setAge(10);
+            System.out.println(a.age);
+            
+            animal b = new animal();
+            // b.age = 5;
+            System.out.println(b.age);
+        } catch (Exception e) {
+            System.out.println("error");
+        }
+        finally {
+            System.out.println("completed");
+        }
 
-        animal b = new animal();
-        // b.age = 5;
-        System.out.println(b.age);
+
     }
 }
 
