@@ -1,7 +1,17 @@
-
 # Memory Allocation Techniques
 * This is used to store the data and manage the processes in the main memory.
 * Main memory is divided into non-overlapping memory regions called partitions.
+
+***Flow***
+* Contiguous
+    * Fixed (or static) partition scheme
+    * Variable (or dynamic) partition scheme
+* Non-contiguous
+    * Paging
+    * Multilevel paging
+    * Internal paging
+    * Segmentation
+    * Segmented paging
 
 ## The main memory can be broadly allocated in two ways
 1. Contiguous memory allocation
@@ -64,5 +74,37 @@ No process can occupy more than one partitions.
 * A hole is created when a process is executed and frees his space from RAM.
 * External fregmentation (due to holes).
 * Complex allocation and deallocation (because there will be many process and holes in the main memory).
+
+
+#### Memory allocation methods in contiguous memory allocation
+These are the methods of memory allocation used to allocate memory to processes in holes.
+<br>
+or we can say methods to fit the processes in holes.
+* First fit
+* Best fit
+* Worst fit
+* Next fit
+    * Next fit is same as first fit but first-fit searches for holes from starting but next-fit searches for holes from the hole which was recently occupied.
+    * It uses a pointer to track recently occupied hole.
+
+<img src='first-best-worst-fit.gif'>
+
+### 2. Non-contiguous memory allocation
+* Also known as dynamic or linked allocation.
+* This memory allocation technique breaks the process in parts and allocates different memory blocks to different parts of a process.
+* This helps in overcomming internal fregmentation.
+* These pointers are used by the operating system to keep track of the memory blocks allocated to the process and to locate them during the execution of the process.
+
+**Types of Non-contiguous memory allocation**
+* Paging
+* Multilevel paging
+* Inverted paging
+* Segmentation
+* Segmented paging
+
+#### Paging
+
+#### Multilevel paging
+
 
 
