@@ -1,4 +1,7 @@
 # General Topics
+
+**CPU is byte addressable**
+
 **Logical Address (or Virtual Address)**
 * Logical address space
 * Each process has its own logical address space.

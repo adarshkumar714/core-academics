@@ -95,7 +95,7 @@ or we can say methods to fit the processes in holes.
 * This helps in overcomming internal fregmentation.
 * These pointers are used by the operating system to keep track of the memory blocks allocated to the process and to locate them during the execution of the process.
 
-**Types of Non-contiguous memory allocation**
+***Types of Non-contiguous memory allocation***
 * Paging
 * Multilevel paging
 * Inverted paging
@@ -103,8 +103,23 @@ or we can say methods to fit the processes in holes.
 * Segmented paging
 
 #### Paging
+* No external fregmentation.
+* Internal fregmentation may occure (if last page of the process is less than page or frame size)
 
 #### Multilevel paging
+
+#### Inverted paging
+
+#### Segmentation
+* In segmentation, a process is divided into segments.
+* These segments are not equal in size.
+* External fregmentation occurs.
+* No internal fragmentation.
+
+<img src='segmentation.webp'>
+
+#### Segmented paging
+
 
 
 
