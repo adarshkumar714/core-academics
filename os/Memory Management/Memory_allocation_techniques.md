@@ -87,7 +87,7 @@ or we can say methods to fit the processes in holes.
     * Next fit is same as first fit but first-fit searches for holes from starting but next-fit searches for holes from the hole which was recently occupied.
     * It uses a pointer to track recently occupied hole.
 
-<img src='first-best-worst-fit.gif'>
+<img src='img/first-best-worst-fit.gif'>
 
 ### 2. Non-contiguous memory allocation
 * Also known as dynamic or linked allocation.
@@ -102,20 +102,31 @@ or we can say methods to fit the processes in holes.
 * Segmentation
 * Segmented paging
 
-#### Paging
+#### Paging (some part written in hard notes)
 * No external fregmentation.
 * Internal fregmentation may occure (if last page of the process is less than page or frame size)
 
-#### Multilevel paging (Hierarchical paging)
+#### Multilevel paging (Hierarchical paging) (some part written in hard notes)
 * Multilevel Paging consists of two or more levels of page tables in a hierarchical manner. It is also known as hierarchical paging. The entries of the level 1 page table are pointers to a level 2 page table and entries of the level 2 page tables are pointers to a level 3 page table and so on. The entries of the last level page table store actual frame information. Level 1 contains a single-page table and the address of that table is stored in PTBR (Page Table Base Register).
 
 ***PTE -> Page Table Entry***<br>
 ***PTBR -> Page Table Base Register***
 
-<img src="multilevel-paging.png">
+<img src="img/multilevel-paging.png">
 
 
-#### Inverted paging
+#### Inverted paging (some part written in hard notes)
+* All the page tables are stored in main memory when executing the processes.
+* So, it takes more memory to store all the tables seperately.
+* So in inverted paging we make a global page table with some changes in entries.
+##### Advantages
+* Reduced memory space.
+* Optimal and less complex
+
+##### Disadvantages
+* Longer Lookup time (searching the page takes longer times as it iterates over all the entries of Page Table).
+
+<img src='img/inverted-paging.png'>
 
 #### Segmentation
 * In segmentation, a process is divided into segments.
@@ -123,10 +134,12 @@ or we can say methods to fit the processes in holes.
 * External fregmentation occurs.
 * No internal fragmentation.
 
-<img src='segmentation.webp'>
-<img src='segmentation-2.webp'>
+<img src='img/segmentation.webp'>
+<img src='img/segmentation-2.webp'>
 
 #### Segmented paging
+<!-- Remaining -->
+
 
 
 

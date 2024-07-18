@@ -15,6 +15,14 @@
 
 **Page Table**
 * A data structure used to map logical address to physical address.
+* Each process has its own page table.
+* Page table of a process will be stored in main memory when the process is going to executed.
 
-<img style="background-color: #f0f0f0;" src='os-page-table-2797170695.png'>
+<img style="background-color: #f0f0f0;" src='img/os-page-table-2797170695.png'>
+
+
+## Virtual Memory (some part written in hard notes)
+* Virtual Memory is a storage allocation scheme in which secondary memory can be addressed as though it were part of the main memory.
+* When cpu demands a page and it is not available in main memory then it is known page fault.
+* To resolve this the needed page from swap area is replaced with not needed page in main memory.
 
