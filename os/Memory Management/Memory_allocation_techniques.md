@@ -106,7 +106,14 @@ or we can say methods to fit the processes in holes.
 * No external fregmentation.
 * Internal fregmentation may occure (if last page of the process is less than page or frame size)
 
-#### Multilevel paging
+#### Multilevel paging (Hierarchical paging)
+* Multilevel Paging consists of two or more levels of page tables in a hierarchical manner. It is also known as hierarchical paging. The entries of the level 1 page table are pointers to a level 2 page table and entries of the level 2 page tables are pointers to a level 3 page table and so on. The entries of the last level page table store actual frame information. Level 1 contains a single-page table and the address of that table is stored in PTBR (Page Table Base Register).
+
+***PTE -> Page Table Entry***<br>
+***PTBR -> Page Table Base Register***
+
+<img src="multilevel-paging.png">
+
 
 #### Inverted paging
 
@@ -117,6 +124,7 @@ or we can say methods to fit the processes in holes.
 * No internal fragmentation.
 
 <img src='segmentation.webp'>
+<img src='segmentation-2.webp'>
 
 #### Segmented paging
 
