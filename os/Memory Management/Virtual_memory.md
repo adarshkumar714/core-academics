@@ -6,6 +6,7 @@
 ### Demand Paging
 * This concept says don't load any page in main memory until it is needed.
 * The process of loading the page into memory on demand (whenever a page fault occurs) is known as ***demand paging***.
+* In this process, some pages of all the processes are preloaded in main memory to maximum memory utlization.
 * Demand paging is a technique used in virtual memory systems where pages enter main memory only when requested or needed by the CPU.
 * In demand paging, the operating system loads only the necessary pages of a program into memory at runtime, instead of loading the entire program into memory at the start.
 
@@ -29,6 +30,12 @@ Then, Effective memory access time = (p*s) + (1-p)*m
 
 
 **Thrashing**
+* A situation when system is spending most of the time in servicing page faults (swapping), than executing the actual process.
+
+**Pure demand paging**
+* Similar to demand paging but in pure demand paging no page of any process is preloaded in main memory.
+* But, in demand paging some page of every process is preloaded in main memory.
+* The page will load in main memory only when it is needed.
 
 
 
