@@ -4,10 +4,10 @@
 - [x] Resident monitor
 - [x] Multiprogramming with fixed partitions
 - [x] Multiprogramming with variable partitions
-- Protection schemes
+- [ ] Protection schemes
 - [x] Paging
 - [x] Segmentation
-- Paged segmentation
+- [ ] Paged segmentation
 - [x] Virtual memory concepts
 - [x] Demand paging
 - [x] Performance of demand paging
