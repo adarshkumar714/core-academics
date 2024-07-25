@@ -9,25 +9,12 @@
 
 ## Entries in PCB
 - Process state
-- Process priority
-- Process scheduling policy
 - Process ID
-- Process parent ID
-- Process group ID
-- Process session ID
-- Process termination signal
-- Process termination status
-- Process memory usage
-- Process start time
-- Process CPU usage
-- Process memory usage
-- Process disk usage
-- Process command line
-- Process working directory
-- Process environment variables
-- Process standard input
-- Process standard output
-
+- Program counter
+- CPU Registers
+- Memory information
+- Process scheduling information
+- Accounting information
 
 
 
