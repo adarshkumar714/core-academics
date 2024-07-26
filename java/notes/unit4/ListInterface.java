@@ -14,12 +14,11 @@
  * @author Adarsh_Kumar
  */
 
-
-
 package notes.unit4;
 
 import java.util.List;
 import java.util.ArrayList;
+
 public class ListInterface {
     public static void main(String[] args) {
         System.out.println("\n-- List interface --\n");

@@ -3,17 +3,17 @@
 * [x] Iterator Interface
 * [x] Collection Interface
 * [x] List Interface
-* [ ] ArrayList
-* [ ] LinkedList
-* [ ] Vector
-* [ ] Stack
-* [ ] Queue Interface
-* [ ] Set Interface
-* [ ] HashSet
-* [ ] LinkedHashSet
-* [ ] SortedSet Interface
-* [ ] TreeSet
-* [ ] Map Interface
+* [x] ArrayList
+* [x] LinkedList
+* [x] Vector
+* [x] Stack
+* [x] Queue Interface
+* [x] Set Interface
+* [x] HashSet
+* [x] LinkedHashSet
+* [x] SortedSet Interface
+* [x] TreeSet
+* [x] Map Interface
 * [ ] HashMap Class
 * [ ] LinkedHashMap Class
 * [ ] TreeMap Class
