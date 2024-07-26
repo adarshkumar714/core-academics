@@ -12,7 +12,7 @@
     - short term scheduler
     - mid term scheduler
     - long term scheduler
-- [ ] Process Control Block (PCB)
+- [x] Process Control Block (PCB)
 - [ ] Process address space
 - [ ] Process identification information
 - [ ] Threads and their management
