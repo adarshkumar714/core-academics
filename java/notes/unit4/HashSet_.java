@@ -5,6 +5,7 @@
  * It does not guarantee the order of elements.
  * 
  * -- Key Characteristics --
+ * 
  * Backed by a hash table.
  * Does not allow duplicate elements.
  * Null elements are allowed.
