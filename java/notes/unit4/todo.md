@@ -1,4 +1,4 @@
-<img style="background: #e4e4e4;" src='Collection-framework-hierarchy.png'>
+<img src='imgs/Collection-framework-hierarchy.png' style='background-color:#e4e4e4; width: 600px;'>
 
 * [x] Iterator Interface
 * [x] Collection Interface
