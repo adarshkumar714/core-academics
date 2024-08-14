@@ -10,7 +10,6 @@
  * get(Object key): Retrieves the value associated with a key.
  * remove(Object key): Removes the key-value pair.
  * 
- * @author Adarsh_Kumar
  */
 
 package notes.unit4.codes;

@@ -1,4 +1,4 @@
-package notes.FunctionalProgramming.FunctionalInterfaces;
+// package notes.FunctionalProgramming.FunctionalInterfaces;
 
 @FunctionalInterface
 interface A{

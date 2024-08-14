@@ -1,4 +1,4 @@
-package notes.unit3.FunctionalProgramming.DefaultMethods;
+// package notes.unit3.FunctionalProgramming.DefaultMethods;
 
 interface A{
     void a();

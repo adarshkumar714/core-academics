@@ -10,7 +10,6 @@
  * Backed by a hash table and a linked list.
  * Null elements are allowed.
  * 
- * @author Adarsh_Kumar
  */
 
 package notes.unit4.codes;

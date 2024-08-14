@@ -9,7 +9,6 @@
  * Thread-safe due to synchronization.
  * Older and less preferred compared to ArrayList.
  * 
- * @author Adarsh_Kumar
  */
 
 package notes.unit4.codes;

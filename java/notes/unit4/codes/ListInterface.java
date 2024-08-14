@@ -11,7 +11,6 @@
  * set(int index, E element): Replaces the element at a specific index.
  * add(int index, E element): Inserts an element at a specific index.
  * 
- * @author Adarsh_Kumar
  */
 
 package notes.unit4.codes;

@@ -10,7 +10,6 @@
  * last(): Returns the last (highest) element.
  * headSet(E toElement): Returns a view of the portion of the set.
  * 
- * @author Adarsh_Kumar
  */
 
 package notes.unit4.codes;

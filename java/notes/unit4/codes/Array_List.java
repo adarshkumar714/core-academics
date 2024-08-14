@@ -10,7 +10,6 @@
  * Allows null elements.
  * Synchronized access is not supported.
  * 
- * @author Adarsh_Kumar
  */
 
 package notes.unit4.codes;

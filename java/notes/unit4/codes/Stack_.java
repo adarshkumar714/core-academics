@@ -9,7 +9,6 @@
  * pop(): Removes and returns the top item.
  * peek(): Returns the top item without removing it.
  * 
- * @author Adarsh_Kumar
  */
 
 package notes.unit4.codes;

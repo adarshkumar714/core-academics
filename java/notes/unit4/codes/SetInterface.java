@@ -8,7 +8,6 @@
  * 
  * Inherits methods from Collection (e.g., add, remove).
  * 
- * @author Adarsh_Kumar
  */
 
 package notes.unit4.codes;

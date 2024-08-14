@@ -10,7 +10,6 @@
  * Does not allow duplicate elements.
  * Null elements are not allowed.
  * 
- * @author Adarsh_Kumar
  */
 
 package notes.unit4.codes;

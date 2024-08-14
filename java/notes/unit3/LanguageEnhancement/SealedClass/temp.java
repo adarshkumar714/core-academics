@@ -16,7 +16,7 @@ non-sealed class Manish extends Human
 	}
 }
 
-sealed class Vartika extends Human
+sealed class Vartika extends Human permits Anjali
 {
 	public void printName()
 	{

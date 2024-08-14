@@ -5,7 +5,6 @@ package notes.unit4.codes;
  * 
  * -- methods --
  * 
- * @author Adarsh_Kumar
  */
 public class LinkedHashMapClass {
 

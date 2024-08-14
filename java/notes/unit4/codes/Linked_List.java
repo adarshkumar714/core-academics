@@ -9,7 +9,6 @@
  * Allows null elements
  * Implements both List and Deque interfaces.
  * 
- * @author Adarsh_Kumar
  */
 
 package notes.unit4.codes;

@@ -11,7 +11,6 @@
  * next(): Returns the next element in the iteration.
  * remove(): Removes the current element in the iteration.
  * 
- * @author Adarsh_Kumar
  */
 
 package notes.unit4.codes;

@@ -10,7 +10,6 @@
  * poll(): Retrieves and removes the head element.
  * peek(): Retrieves but does not remove the head element.
  * 
- * @author Adarsh_Kumar
  */
 
 package notes.unit4.codes;

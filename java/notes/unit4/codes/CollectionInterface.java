@@ -11,7 +11,6 @@
  * remove(Object o): Removes an element.
  * size(): Returns the number of elements.
  * 
- * @author Adarsh_Kumar
  */
 
 package notes.unit4.codes;
