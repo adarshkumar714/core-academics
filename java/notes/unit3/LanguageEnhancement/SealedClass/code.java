@@ -1,6 +1,6 @@
-package notes.LanguageEnhancement.SealedClass;
+package notes.unit3.LanguageEnhancement.SealedClass;
 
-import java.lang.*;
+// import java.lang.*;
 
 sealed class Human permits A, B, C{
     public void print(){
@@ -8,10 +8,14 @@ sealed class Human permits A, B, C{
     }
 }
 
-sealed class A extends Human{
+non-sealed class A extends Human{
     public void print(){
         System.out.println("asdf");
     }
+}
+
+class x extends A{
+
 }
 
 final class B extends Human{

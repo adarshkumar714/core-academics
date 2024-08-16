@@ -1,4 +1,4 @@
-package notes.unit3.Annotations;
+// package notes.unit3.Annotations;
 
 @CustomTypeAnnotation
 class A{

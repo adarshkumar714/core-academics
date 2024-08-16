@@ -1,3 +1,14 @@
+
+<!-- Access modifiers table -->
+| Access Modifier | **Class** | **Package** | **Subclass** | **World** |
+|-----------------|-----------|-------------|--------------|-----------|
+| **public**      | Yes       | Yes         | Yes          | Yes       |
+| **protected**   | Yes       | Yes         | Yes          | No        |
+| **default**     | Yes       | Yes         | No           | No        |
+| **private**     | Yes       | No          | No           | No        |
+
+<br>
+
 ***Static members***: In Java, static members are those which belongs to the class and you can access these members without instantiating the class.
 
 ### Data types

@@ -1,6 +1,8 @@
-import java.lang.*;
+package notes.unit3.LanguageEnhancement.SealedClass;
 
-sealed class Human permits Manish, Vartika, Anjali
+// import java.lang.*;
+
+sealed class Human permits Manish, Vartika
 { 
 	public void printName()
 	{
@@ -16,6 +18,19 @@ non-sealed class Manish extends Human
 	}
 }
 
+sealed class a permits b{
+
+}
+
+sealed class b extends a permits c{
+
+}
+
+final class c extends b{
+
+}
+
+
 sealed class Vartika extends Human permits Anjali
 {
 	public void printName()
@@ -24,7 +39,7 @@ sealed class Vartika extends Human permits Anjali
 	}
 }
 
-final class Anjali extends Human
+final class Anjali extends Vartika
 {
 	public void printName()
 	{
