@@ -1,4 +1,4 @@
-package notes.LanguageEnhancement.DiamondSyntaxWithAnonymousInnerClasses;
+// package notes.LanguageEnhancement.DiamondSyntaxWithAnonymousInnerClasses;
 
 import java.util.ArrayList;
 import java.util.List;

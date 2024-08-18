@@ -15,7 +15,8 @@ public class code {
         b.add(true);
         printList(b);        
     }
-    
+    // <?> : wildcard (can handle any type)
+    // takes a list in parameter which contains different data type values
     public static void printList(List<?> list){
         System.out.println(list);
     }
