@@ -27,7 +27,7 @@ In this technique we assign contiguous memory blocks to each task.
 ***Diadvantage***
 * Disk will become fragmented (internal and external)
 * major problem - external fragmentation
-* Difficult to grow file
+* Difficult to grow file (grow file size)
 
 ***Types of contiguous memory allocatino***
 1. Fixed (or static) partition scheme
@@ -47,13 +47,13 @@ Number of partitions is fixed but size of each partitions is not fixed
 <br>
 Here both memory blocks come under fixed partitions as number of partitions are same i.e. 4 but size of each partitions may not be same.
 
-One partitions is allocated to one process only.
-No process can occupy more than one partitions.
+One partition is allocated to one process only.
+No process can occupy more than one partition.
 (size of each process should be smaller or equal to size of partition)
 
 ***Flaws***
 * Internal fragementation
-* Limit in process size (32kb process can't be allocated to partitions of 16kb size if there is not 32kb partition)
+* Limit in process size (32kb process can't be allocated to partitions of 16kb size if there is no 32kb partition)
 * Limitation on degree of multiprogramming (this things says that main memory should contain maximum number of processes for efficient use of memory, but no. of partitions is fixed so no. of processes in main memory will be fixed)
 
 #### 1.2 Variable (os dynamic) partition scheme.
